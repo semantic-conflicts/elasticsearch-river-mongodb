@@ -35,7 +35,7 @@ class Slurper implements Runnable {
 class SlurperException extends Exception {
     /** 
  */
-    public static long serialVersionUID=1L;
+    public long serialVersionUID=1L;
     SlurperException(    String message){
       super(message);
     }
